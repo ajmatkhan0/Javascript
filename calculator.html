@@ -6,9 +6,11 @@
   <script src="script.js"></script>
   </head>
   <body>
-      <input type="number" id="num1" placeholder="First">
-      <br />
-  <input type="number" id="num2" placeholder="Second">
+  <div class="input-group">
+  <span class="input-group-text">First and last name</span>
+  <input type="text" aria-label="First name" class="form-control">
+  <input type="text" aria-label="Last name" class="form-control">
+</div>
   <br>
   <div>
     <button onclick="calculate('+')">Addition</button>
